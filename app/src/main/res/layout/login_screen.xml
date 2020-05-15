@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="36dp"
+    android:paddingBottom="36dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/bg_gradient_login_cadastro"
+    tools:context=".activity_LoginScreen">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="50dp"
+        android:layout_margin="5dp"
+        android:elevation="0dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:src="@drawable/food"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/text_nomeCDM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="FeedCare"/>
+
+    <EditText
+        android:id="@+id/edit_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_pass_user"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_pass_user"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_termos_de_uso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:linksClickable="true"
+        android:buttonTint="@color/colorWhite"
+        android:textColorLink="@color/colorAccent"
+        android:text="Li e aceito os Termos de uso"/>
+
+    <Button
+        android:id="@+id/btn_logar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Entrar"
+        android:background="@drawable/btn_login_cadastro"
+        android:backgroundTint="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Cadastrar-se"
+        android:background="@drawable/btn_login_cadastro"
+        android:backgroundTint="@color/colorWhiteToGray"/>
+
+
+
+</LinearLayout>

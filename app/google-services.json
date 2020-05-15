@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719045214735",
+    "firebase_url": "https://buscareandroid.firebaseio.com",
+    "project_id": "buscareandroid",
+    "storage_bucket": "buscareandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719045214735:android:6302d449f55f4ce3",
+        "android_client_info": {
+          "package_name": "com.behl.cdm_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719045214735-aa2jgmu74c71urhdbk0imp9j1scgv8j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.felip.teladecadastro",
+            "certificate_hash": "0a5d53bb109a56752989d3a029e853d76e7f76e7"
+          }
+        },
+        {
+          "client_id": "719045214735-3cg5dps6d67hleqgo4k9ss5e8gvdv27g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUclADm5jZbWA8KydD7qri87yysYvo0OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719045214735-3cg5dps6d67hleqgo4k9ss5e8gvdv27g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
